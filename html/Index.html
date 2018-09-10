@@ -6,14 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>IBM </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="C:\Users\mero_\Desktop\IBM\style\css\Index.css" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="C:\Users\mero_\Desktop\IBM\style\css\Index.css" /> -->
+    <!-- stylesheet or javascript file paths should be relative not absolute -->
+    <link rel="stylesheet" type="text/css" media="screen" href="../style/css/Index.css" />
+    <!-- Js files should be put at the end of the body tag -->
     <script src="main.js"></script>
 </head>
 
 <body>
     <div id="IBM-Top">
+        <!-- Use the `header` tag to represent the page header -->
         <section>
+            <!-- if the class is two words, separate it with dashes. e.g: top-nav -->
             <div class="topnav">
+                <!-- Relative paths for images not absolute -->
                 <img src="C:\Users\mero_\Desktop\IBM\style\images\IBM-Logo.png" id="Logo" alt="IBM-logo">
                 <a href="" class="left-nav">Marketplace</a>
                 <a href="" class="left-nav">Services</a>
@@ -31,6 +37,7 @@
         </section>
 
         <section>
+            <!-- ids and classes should be written in small letters only -->
             <div id="Section-One">
                 <div id="Section-One-left-Side">
                     <h1 id="ibm-leadspace-title">It’s time for a new kind of cloud!</h1>
@@ -101,6 +108,7 @@
                         <h4>with transactions no one dashboard, pinpoint and resolve issues in minutes not hours</h4>
                     </div>
                     <div class="ibm-row3">
+                        <!-- If yuo're not going to add an href url, then put a `#` but don't leave it empty -->
                         <a href="" class="hyperlinkStyle" id="Special-color"> try the supply chain business network
                             model now</a>
                     </div>
